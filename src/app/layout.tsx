@@ -12,6 +12,9 @@ const robotoMono = Roboto_Mono({
 export const metadata: Metadata = {
     title: 'Fast Pizza Co.',
     description: 'Delicious pizza from a stone oven',
+    icons: {
+        icon: '/faviconPizza.ico',
+    },
 };
 
 export default function RootLayout({
