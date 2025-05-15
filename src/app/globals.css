@@ -129,7 +129,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 0.8rem;
-    padding: 0.4rem 0;
+    padding-bottom: 6rem;
 }
 
 .pizza h3 {
@@ -185,4 +185,3 @@ body {
 .btn:hover {
     background-color: #e9bb24;
 }
-
