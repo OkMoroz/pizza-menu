@@ -1,6 +1,8 @@
+@import "tailwindcss";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 
 :root {
     --background: #ffffff;
@@ -82,21 +84,11 @@ body {
 
 /* Menu styles */
 .menu {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     gap: 4rem;
 }
 
 .menu h2 {
-    display: inline-block;
-    padding: 1rem 0;
-    border-top: 2px solid currentColor;
-    border-bottom: 2px solid currentColor;
-    font-size: 2.4rem;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    font-weight: 500;
+    /*padding: 1rem 0;*/
 }
 
 .menu > p {
@@ -107,18 +99,6 @@ body {
 }
 
 /* Pizza list */
-.pizzas {
-    list-style: none;
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 4.8rem;
-}
-
-@media screen and (min-width: 768px) {
-    .pizzas {
-        grid-template-columns: 1fr 1fr;
-    }
-}
 
 .pizza {
     display: flex;
