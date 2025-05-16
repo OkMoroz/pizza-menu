@@ -1,8 +1,7 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 
 :root {
     --background: #ffffff;
@@ -82,92 +81,6 @@ body {
     right: 0;
 }
 
-/* Menu styles */
-.menu {
-    gap: 4rem;
-}
-
-.menu h2 {
-    /*padding: 1rem 0;*/
-}
-
-.menu > p {
-    font-size: 1.5rem;
-    text-align: center;
-    line-height: 1.6;
-    width: 80%;
-}
-
-/* Pizza list */
-
-.pizza {
-    display: flex;
-    gap: 3.2rem;
-}
-
-.pizza img {
-    width: 12rem;
-    aspect-ratio: 1 / 1;
-    align-self: start;
-}
-
-.pizza div {
-    display: flex;
-    flex-direction: column;
-    gap: 0.8rem;
-    padding-bottom: 6rem;
-}
-
-.pizza h3 {
-    font-size: 2rem;
-    font-weight: 400;
-}
-
-.pizza p {
-    font-size: 1.4rem;
-    font-weight: 300;
-    font-style: italic;
-    margin-bottom: auto;
-}
-
-.pizza span {
-    display: block;
-    font-size: 1.6rem;
-}
-
-.pizza.sold-out {
-    color: #888;
-}
-
-.pizza.sold-out img {
-    filter: grayscale(100%);
-    opacity: 0.8;
-}
-
-/* Footer */
-.footer {
-    font-size: 1.4rem;
-}
-
-.order {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 2.4rem;
-}
-
 .btn {
-    color: inherit;
-    font-family: inherit;
-    border: none;
-    font-size: 1.4rem;
-    font-weight: 500;
-    background-color: #edc84b;
     padding: 1.4rem 3.2rem;
-    cursor: pointer;
-    transition: all 0.2s;
-}
-
-.btn:hover {
-    background-color: #e9bb24;
 }

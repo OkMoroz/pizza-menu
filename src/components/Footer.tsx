@@ -6,10 +6,9 @@ const Footer = () => {
     const closeHour = 22;
 
     const isOpen = hour >= openHour && hour <= closeHour;
-    console.log(isOpen);
 
     return (
-        <footer className="footer">
+        <footer className="text-2xl">
             {isOpen ? (
                 <Order openHour={openHour} closeHour={closeHour} />
             ) : (
